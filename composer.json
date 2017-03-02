@@ -1,0 +1,32 @@
+{
+  "name": "teltek/oauth2-oracle-access-manager",
+  "description": "Oracle access manager OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+  "keywords": [
+    "oauth2",
+    "client",
+    "oracle",
+    "oracle access manager",
+    "symfony2",
+    "teltek"
+  ],
+  "homepage": "https://github.com/teltek/oauth2-oracle-access-manager",
+  "license": "Copyright",
+  "authors": [
+    {
+      "name": "Teltek Team",
+      "homepage": "http://teltek.es"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "league/oauth2-client": ">=2.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Teltek\\Oauth2OracleAccessManagerBundle\\": ""
+    }
+  }
+}
