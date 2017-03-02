@@ -32,6 +32,6 @@ class TeltekOauth2OracleAccessManagerExtension extends Extension
         $container->setParameter('teltek_oauth2_oracle_access_manager.urlResourceOwnerDetails', $config['urlResourceOwnerDetails']);
 
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
-        $loader->load('services.yml');
+
     }
 }
