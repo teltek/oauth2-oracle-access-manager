@@ -1,3 +1,10 @@
+# Deprecated 
+
+This bundle is deprecated and only works for PuMuKIT v2.7 or lower.
+
+To use PuMuKIT v3 or greater install the new bundle: [PumukitOAuth2Bundle](https://github.com/pumukit/PumukitOAuth2Bundle)
+
+
 # Oracle Access Manager Provider for OAuth 2.0 Client
 
 This package provides Oracle Access Manager OAuth 2.0 support for the PHP League's [OAuth 2.0 Client](https://github.com/thephpleague/oauth2-client).
